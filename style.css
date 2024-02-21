@@ -134,3 +134,14 @@ button a{
 @media screen and (max-width: 390px){
     
 }
+
+/*------------
+  HOVER 
+-------------*/
+button:hover,
+button:focus{
+    transform: scale(1.10);
+    border: 1px solid #C04A3D;
+    background-color:rgba(192, 74, 61, 0.2);;
+    color: #fff;
+}
