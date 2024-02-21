@@ -131,8 +131,26 @@ button a{
    }
 }
 
-@media screen and (max-width: 390px){
-    
+@media screen and (max-width: 360px){
+    .card{
+        max-width: 250px;
+    }
+    .img-wrap,
+    .title{
+        position: static;
+    }
+    .img-wrap{
+        width: 80%;  
+    }
+    .img-wrap .img-900{
+        display: block;
+    }
+    .img-wrap .img-600{
+        display: none;
+    }
+    .title{
+        padding: 0 20px;
+    }
 }
 
 /*------------
